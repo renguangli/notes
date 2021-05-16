@@ -9,8 +9,9 @@ using builtin-java classes where applicable
 
 进入 hadoop 安装目录，将 hadoop/lib/native 目录中的文件拷贝到客户端服务器上
 
-启动时加入参数 -Djava.library.pat=./lib/native
+启动时加入参数 -Djava.library.path=./lib/native
 
 ```java
-java -jar -D./lib/native xx.jar
+java -Djava.library.path -jar xx.jar
 ```
+
