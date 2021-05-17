@@ -1,3 +1,5 @@
+hadoop 异常
+
 ## Unable to load native-hadoop library for your platform
 
 使用 java 客户端写入 hdfs 时报如下异常
