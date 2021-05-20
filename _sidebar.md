@@ -9,7 +9,7 @@
   - [Mysql](/Pattern-Model/单例模式.md)
 
 - Error
-  - [Mysql](/Error/MySQL.md)
+  - [MySQL](/Error/MySQL.md)
 
 - Exception
   - [Hadoop](/Exception/Hadoop.md)
