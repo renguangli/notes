@@ -8,6 +8,8 @@
 - 设计模式
   - [Mysql](/Pattern-Model/单例模式.md)
  -->
+- OS
+  - [Linux](/OS/Linux.md)
 - Error
   - [MySQL](/Error/MySQL.md)
 
