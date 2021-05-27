@@ -10,6 +10,7 @@
  -->
 - OS
   - [Linux](/OS/Linux.md)
+  - [Centos 磁盘挂载](/OS/Centos磁盘挂载.md)
 - Error
   - [MySQL](/Error/MySQL.md)
 
