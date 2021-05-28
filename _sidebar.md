@@ -18,5 +18,6 @@
   - [Hadoop](/Exception/Hadoop.md)
   - [Tomcat](/Exception/Tomcat.md)
 
+- [influxdb 添加 basic 认证](influx-add-auth.md)
 - [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)
