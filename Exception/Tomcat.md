@@ -6,7 +6,7 @@ Tomcat Url 中只允许包含
 - 0-9
 - **- _ . ~** 4个特殊字符以及所有保留字符
 
-RFC3986中指定了以下字符为保留字符
+[RFC3986](https://datatracker.ietf.org/doc/rfc3986/) 规范中指定了以下字符为保留字符
 
 - ! * ’ ( ) ; : @ & = + $ , / ? # [ ])
 
@@ -19,6 +19,5 @@ RFC3986中指定了以下字符为保留字符
 - 5、**relaxedPathChars && relaxedQueryChars**
 
 ```
-或者添加 relaxedPathChars 属性
 <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" relaxedPathChars="[]" relaxedQueryChars="[]" redirectPort="8443" />
 ```
