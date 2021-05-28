@@ -18,6 +18,6 @@
   - [Hadoop](/Exception/Hadoop.md)
   - [Tomcat](/Exception/Tomcat.md)
 
-- [influx](influx-add-auth.md)
+- [influx](influx.md)
 - [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)
