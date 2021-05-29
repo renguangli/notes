@@ -1,6 +1,4 @@
-## max_allowed_packet 参数介绍
-
->  max_allowed_packet 是 MySQl 的一个常见参数，mysql 根据配置文件会限制 server 接受的数据包大小。
+>  max_allowed_packet 是 MySQl 的一个常见参数，mysql 根据max_allowed_packet大小 限制 server 接受的数据包大小。
 
 用 Navicat 导入 SQL 文件时报错：
 

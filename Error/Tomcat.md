@@ -1,5 +1,3 @@
-## Tomcat
-## Tomcat 传特殊字符返回 400 错误
 Tomcat Url 中只允许包含
 
 - a-zA-Z
