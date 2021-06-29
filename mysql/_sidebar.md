@@ -1,4 +1,2 @@
 - [MySQL 重置 root 用户密码](reset-root-password.md)
 - [Linux 下安装 MySQL](mysql-install.md)
-- [vi 编辑器使用详解](vi.md)
-- [vi /vim [中的一些技巧](vi-vim.md)

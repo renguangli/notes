@@ -2,8 +2,6 @@ Linux 下安装 MySQL
 下载地址：https://dev.mysql.com/downloads/mysql/
 点击直接下载 64 位 5.7.24 版本的安装包 [mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz](https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.31-linux-glibc2.12-x86_64.tar.gz)
 
-# Linux下 MySQL 二进制安装
-
 ## 1、创建用户、用户组
 
 ```
@@ -114,7 +112,7 @@ mysql> alter user user() identified by 'root';
 Query OK, 0 rows affected (0.00 sec)
 ```
 
-# 远程连接配置
+### 8、远程连接配置
 
 ```
 mysql> grant all privileges on *.* to 'root'@'%' identified by 'root' with grant option;
