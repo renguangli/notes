@@ -1,0 +1,1 @@
+- [MySQL 重置 root 用户密码](reset-root-password.md)
