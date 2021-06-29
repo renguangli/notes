@@ -83,6 +83,7 @@
 6. set warn：在转到别的文件时若没保存当前文件则显示NO write信息
 7. set nowrapscan：禁止vi在搜索到达文件两端时，又从另一端开始
 8. set mesg：允许vi显示其他用户用write写到自己终端上的信息
+9. set fileformats=unix 文件格式设置为 unix 或 dos
 
 ### 2.2 编辑器保存
 
