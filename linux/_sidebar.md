@@ -3,3 +3,4 @@
 - [磁盘挂载](磁盘挂载.md)
 - [shell 获取时间](shell-get-datetime.md)
 - [linux 下的资源限制](ulimit.md)
+- [CentOS 搭建本地 YUM 源](/local-yum.md)
