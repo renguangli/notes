@@ -60,15 +60,15 @@ exit
 
    当 s1 再加 1 小时 s1 就变成 00:00，这样就导致循环无法结束了
 
-4. 解决方案：使用 LocalDatetime
+   根本原因是溢出了，只有时间，没有日期
+
+4. 解决方案：使用 LocalDatetime 就不会有这样的问题了
 
    ```
-       public static void generateDayTimeStr(LocalDateTime startTime, LocalDateTime endTime) {
-           while (startTime.isBefore(endTime)){
-               xData.add(startTime.format(DateTimeFormatter.ofPattern("HH:mm")));
-               startTime = startTime.plusHours(1);
-           }
+   public static void generateDayTimeStr(LocalDateTime startTime, LocalDateTime endTime) {
+       while (startTime.isBefore(endTime)){
+       	xData.add(startTime.format(DateTimeFormatter.ofPattern("HH:mm")));
+       	startTime = startTime.plusHours(1);
        }
+   }
    ```
-
-   
