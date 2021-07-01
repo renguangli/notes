@@ -16,4 +16,6 @@
 
 - [使用 mobaXterm 下载文件时文件过大导致 c 盘占满](mobaXterm-c-temp.md)
 
+- [记一次 OOM 的排查过程](/oom/21-06-30-oom.md)
+
   
