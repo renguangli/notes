@@ -14,8 +14,10 @@
 
 - [Tomcat 传特殊字符返回 400 错误](/Error/Tomcat.md)
 
-- [使用 mobaXterm 下载文件时文件过大导致 c 盘占满](mobaXterm-c-temp.md)
+- [使用 mobaXterm 下载文件时文件过大导致 c 盘占满](/Error/mobaXterm-c-temp.md)
 
 - [记一次 OOM 的排查过程](/oom/21-06-30-oom.md)
+
+- [什么是 NUMA](numa.md)
 
   
